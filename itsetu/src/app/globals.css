@@ -18,19 +18,40 @@ body{
 body{
   min-height: 100vh;
 }
+@keyframes heroContent {
 
-@keyframes slideFromRight {
-  from{
+  0%{
     opacity: 0;
-    transform: translateX(120px);
+    transform: translateX(-80px);
   }
 
-  to{
+  100%{
     opacity: 1;
     transform: translateX(0);
   }
+
 }
 
-.nav-animation{
-  animation: slideFromRight 2s ease forwards;
+.animate-heroContent{
+  animation: heroContent 1s ease;
+  animation-delay: 0.7s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeImage {
+
+  0%{
+    opacity: 0;
+    transform: scale(1.08);
+  }
+
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}
+
+.animate-fadeImage{
+  animation: fadeImage 2s ease;
 }

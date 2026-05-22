@@ -1,5 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
 import Image from "next/image";
+import Hero from "@/sections/Hero";
+import WhatWeDo from "@/sections/WhatWeDo";
 
 
 export default function Home() {
@@ -7,6 +9,8 @@ export default function Home() {
    <main className="min-h-screen bg-white">
 
     <Navbar></Navbar>
+    <Hero></Hero>
+    <WhatWeDo></WhatWeDo>
 
    </main>
   );
