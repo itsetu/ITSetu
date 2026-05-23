@@ -148,7 +148,7 @@ export default function WhatWeDo() {
                 overflow-hidden
               "
               style={{
-                backgroundImage: "url('/p1.avif')",
+                backgroundImage: "url('/Main.avif')",
                backgroundAttachment: "fixed"
               }}
             >
