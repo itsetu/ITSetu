@@ -8,26 +8,26 @@ export default function Hero() {
 
     {
       image: "/p1.avif",
-      subtitle: "IT Infrastructure Management Solutions",
-      title: "Think big, scale small. The flexible Hyperconverged Infrastructure."
+      subtitle: "IT Infrastructure Solutions",
+      title: "Transforming Businesses Through Smart IT Infrastructure"
     },
 
     {
       image: "/p2.avif",
-      subtitle: "Collaborate with people",
-      title: "Collaborate with us for specialized Security Solutions"
+      subtitle: "Cyber Security & Networking",
+      title: "Secure, Scalable and Reliable Technology Solutions"
     },
 
     {
       image: "/p3.avif",
-      subtitle: "Digital transformation",
-      title: "Start your Digital Transformation Journey with US"
+      subtitle: "Cloud & Digital Transformation",
+      title: "Accelerate Your Business Growth with Modern Cloud Solutions"
     },
 
     {
       image: "/p5.avif",
-      subtitle: "Hassle-free assistance, anytime, anywhere",
-      title: "24X 7 Support for your IT Needs"
+      subtitle: "24×7 Managed IT Services",
+      title: "Reliable Support for Your Critical Business Operations"
     }
 
   ];

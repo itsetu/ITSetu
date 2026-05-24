@@ -30,7 +30,7 @@ export default function WhatWeDo() {
             mb-6
           ">
 
-            WHAT WE ARE GOOD AT?
+            WHAT WE DO?
 
           </h2>
 
@@ -44,14 +44,14 @@ export default function WhatWeDo() {
             md:text-[16px]
 
             text-gray-500
-            leading-[1.7]
+            leading-[1.9]
             pb-[10px]
           ">
 
-            We are bringing 360-degree Digital Transformation for business
-            enterprises of various sizes, as well as technology providers
-            by delivering assured business efficiency through a set of
-            new-age technologies.
+            We provide complete IT Infrastructure solutions for enterprises,
+startups and organizations by delivering secure, scalable and
+modern technology services that drive business growth and
+operational excellence.
 
           </p>
 
@@ -83,19 +83,17 @@ export default function WhatWeDo() {
               md:text-[15px]
 
               text-gray-500
-              leading-[1.7]
+              leading-[1.9]
               lg:max-w-[520px]
               mb-10 translate-y-[0px] md:-translate-y-[50px]
             ">
 
-              Our aim is to ease the transition of enterprises into the
-              Internet age. We offer a full range of IT, Security,
-              Network, Collaboration, Data Center, Storage & Backup
-              Infrastructure, Virtualization, Cloud Management,
-              IT Facility Management and System integration services
-              and solutions partnering with the best-of-breed
-              technologies in the industry, giving a competitive edge
-              to our clients to achieve their business goals in style.
+              Our mission is to simplify the transition of businesses
+into the digital era. ITSetu offers end-to-end solutions
+including Networking, Cyber Security, Data Center
+Infrastructure, Cloud Management, Storage & Backup,
+Virtualization and IT Facility Management services
+tailored to business requirements.
 
             </p>
 
@@ -105,17 +103,17 @@ export default function WhatWeDo() {
               md:text-[15px]
 
               text-gray-500
-              leading-[1.7]
+              leading-[1.9]
               lg:max-w-[530px]
   
             ">
 
-              We offer Storage Optimization, Cloud Migration and
-              Managed Security service delivering timely solutions
-              thereby enhancing operational excellence of your
-              business. From networking, hardware to applications,
-              our team of certified experts monitor, manage and
-              maintain the IT environment of 500+ customer PAN india.
+              We help organizations optimize their IT operations
+with advanced cloud solutions, managed security
+services and reliable infrastructure support.
+Our certified experts continuously monitor,
+manage and maintain critical IT environments
+ensuring performance, security and business continuity.
 
             </p>
 

@@ -34,10 +34,10 @@ export default function Footer() {
                 leading-[1.8]
                 max-w-[280px]
               ">
-                GTS Technosoft Pvt. Ltd is a vendor-independent
-                IT services company as business technologists,
-                our value lies in our ability to turn technology
-                to business advantage for our clients.
+                ITSetu is a trusted IT Infrastructure and
+Technology Solutions company helping businesses
+transform operations through secure, scalable
+and future-ready digital solutions.
               </p>
             </div>
 
@@ -108,8 +108,8 @@ export default function Footer() {
           ">
             {/* Left - Contact */}
             <div className="flex flex-col gap-2 text-gray-600 text-[15px] text-center lg:text-left">
-              <p>Tel. 020 27293750 / 9860676869</p>
-              <p>Email. sales@gtstechnosoft.com</p>
+              <p>Tel. +91 9876543210</p>
+              <p>Email. info@itsetu.com</p>
             </div>
 
             {/* Center - Terms */}
@@ -174,7 +174,7 @@ export default function Footer() {
         {/* COPYRIGHT */}
         <div className="bg-[#162b80] py-5 mt-0 -mx-8 md:-mx-20 lg:-mx-32 xl:-mx-44">
           <p className="text-center text-white text-[14px] sm:text-[16px] tracking-[2px] px-4">
-            © 2035 by GTS Technosoft. Powered and secured by Robby Designs
+           © 2026 ITSetu Technologies. All Rights Reserved.
           </p>
         </div>
       </footer>

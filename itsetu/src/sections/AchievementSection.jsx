@@ -9,7 +9,7 @@ export default function AchievementSection() {
     <>
 
       {/* TOP BLUE SECTION */}
-      <section className="relative w-full h-[220px] overflow-visible">
+      <section className="relative w-full h-[620px] md:h-[200px] overflow-visible">
 
         {/* Background */}
         <div
@@ -50,7 +50,7 @@ export default function AchievementSection() {
             "
           >
 
-            Why GTS TECHNOSOFT
+            Why ITSetu
 
           </motion.h2>
 
@@ -66,8 +66,15 @@ export default function AchievementSection() {
 
           z-20
 
+
+
           flex
+          flex-wrap
+          justify-center
+
           gap-8
+          w-full
+          px-6
         ">
 
           {/* CARD 1 */}
@@ -254,7 +261,7 @@ export default function AchievementSection() {
                 relative z-10
               ">
 
-                24/7
+                100+
 
               </h3>
 
@@ -266,7 +273,7 @@ export default function AchievementSection() {
                 relative z-10
               ">
 
-                Support
+                Happy Customers
 
               </p>
 
@@ -356,7 +363,7 @@ export default function AchievementSection() {
                 relative z-10
               ">
 
-                100+
+                30+
 
               </h3>
 
@@ -368,7 +375,7 @@ export default function AchievementSection() {
                 relative z-10
               ">
 
-                Qualified Team
+                Certified Experts
 
               </p>
 
@@ -458,7 +465,7 @@ export default function AchievementSection() {
                 relative z-10
               ">
 
-                13+
+                200+
 
               </h3>
 
@@ -470,7 +477,7 @@ export default function AchievementSection() {
                 relative z-10
               ">
 
-                Years of Experience
+                Projects Delivered
 
               </p>
 
@@ -507,9 +514,9 @@ export default function AchievementSection() {
    pt-[170px]
   ">
 
-    Our award winning and the world changing <br />
-    hall of facts and figures.
-
+    Our award-winning solutions and customer-focused
+approach help businesses <br /> achieve reliable,
+secure and future-ready IT infrastructure.
   </p>
 
 </section>

@@ -17,32 +17,32 @@ export default function SolutionsSection() {
     {
       icon: <ShieldCheck size={58} />,
       title: "Network and Security Practice",
-      desc: "Today's enterprise networks serve a vast array of traditional and nontraditional devices."
+      desc: "Modern enterprise networks require reliable connectivity and advanced security to protect users, devices and business-critical applications."
     },
     {
       icon: <Database size={58} />,
       title: "Datacenter Practice",
-      desc: "Data is a valuable commodity. Any business that collects data needs to have a secure and well-structured disaster recovery plan."
+      desc: "We design secure and scalable datacenter solutions ensuring business continuity, high availability and disaster recovery readiness."
     },
     {
       icon: <Cloud size={58} />,
       title: "Cloud Practice",
-      desc: "Cloud solutions are reshaping the business world from top to bottom, bringing big changes to enterprises of all sizes."
+      desc: "Cloud technologies empower businesses with flexibility, scalability and cost-effective infrastructure management across hybrid environments."
     },
     {
       icon: <MonitorSmartphone size={58} />,
       title: "Endpoint Security Practice",
-      desc: "Endpoint security represents the policy-based management of security protocol over multiple network components."
+      desc: "Endpoint security solutions protect laptops, desktops and devices from cyber threats through centralized monitoring and policy management."
     },
     {
       icon: <ServerCog size={58} />,
       title: "Managed Services",
-      desc: "Gts Technosoft Managed Services is designed to handle the daily operations of your IT Infrastructure providing capability to company end-users."
+      desc: "Our managed services help organizations maintain, monitor and optimize their IT infrastructure with proactive support and operational excellence."
     },
     {
       icon: <Users size={58} />,
       title: "Shared Services",
-      desc: "Providing highly skilled professionals for software projects on a contractual basis."
+      desc: "We provide highly skilled technology professionals and support teams for software projects and enterprise IT operations."
     }
   ];
 
