@@ -7,6 +7,8 @@ export default function WhatWeDo() {
       {/* SECTION 1 */}
       <section className="w-full min-h-[160px] bg-[#ffffff] overflow-hidden py-10">
 
+
+        in 
         <div className="
           translate-x-[20px]
           sm:translate-x-[60px]
@@ -160,7 +162,5 @@ ensuring performance, security and business continuity.
       </section>
 
     </>
-
   );
-
 }

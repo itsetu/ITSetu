@@ -1,12 +1,17 @@
 "use client";
 
+
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
 
   const [mobileMenu, setMobileMenu] = useState(false);
+
+  const pathname = usePathname();
 
   return (
 
@@ -79,27 +84,31 @@ export default function Navbar() {
           nav-animation
         ">
 
-          <li className="
-            text-orange-400
-            cursor-pointer
-          ">
+         <Link href="/">
+  <li
+    className={`
+      cursor-pointer
+      transition
+      duration-300
+      ${pathname === "/" ? "text-orange-400" : "text-black hover:text-orange-400"}
+    `}
+  >
+    Home
+  </li>
+</Link>
 
-            Home
-
-          </li>
-
-          <li className="
-            hover:text-orange-400
-
-            transition
-            duration-300
-
-            cursor-pointer
-          ">
-
-            About us
-
-          </li>
+         <Link href="/about">
+  <li
+    className={`
+      cursor-pointer
+      transition
+      duration-300
+      ${pathname === "/about" ? "text-orange-400" : "text-black hover:text-orange-400"}
+    `}
+  >
+    About Us
+  </li>
+</Link>
 
           {/* SOLUTIONS DROPDOWN */}
           <li className="
@@ -156,125 +165,83 @@ export default function Navbar() {
                 py-5
               ">
 
-                <a href="#" className="
-                  block
+<Link
+  href="/solutions/network-security"
+  className="
+    block
 
-                  px-8
-                  py-3
+    px-8
+    py-3
 
-                  text-center
+    text-center
 
-                  text-[16px]
-                  text-black
+    text-[16px]
 
-                  hover:text-orange-400
+    text-black
 
-                  transition-all
-                ">
+    hover:text-orange-400
 
-                  Network and Security Practice
+    transition-all
+  "
+>
 
-                </a>
+  Network and Security Practice
 
-                <a href="#" className="
-                  block
+</Link>
 
-                  px-8
-                  py-3
+                <Link
+  href="/solutions/storage_and_backup"
+  className="
+    block
 
-                  text-center
+    px-8
+    py-3
 
-                  text-[16px]
-                  text-black
+    text-center
 
-                  hover:text-orange-400
+    text-[16px]
 
-                  transition-all
-                ">
+    text-black
 
-                  Datacenter Practice
+    hover:text-orange-400
 
-                </a>
+    transition-all
+  "
+>
 
-                <a href="#" className="
-                  block
+  Storage & Backup
 
-                  px-8
-                  py-3
+</Link>
 
-                  text-center
+               <Link
+  href="/solutions/web_and_application"
+  className="
+    block
 
-                  text-[16px]
-                  text-black
+    px-8
+    py-3
 
-                  hover:text-orange-400
+    text-center
 
-                  transition-all
-                ">
+    text-[16px]
 
-                  Cloud Practice
+    text-black
 
-                </a>
+    hover:text-orange-400
 
-                <a href="#" className="
-                  block
+    transition-all
+  "
+>
 
-                  px-8
-                  py-3
+  Web & Application Development
 
-                  text-center
+</Link>
 
-                  text-[16px]
-                  text-black
+                
 
-                  hover:text-orange-400
+             
 
-                  transition-all
-                ">
-
-                  Endpoint Security Practice
-
-                </a>
-
-                <a href="#" className="
-                  block
-
-                  px-8
-                  py-3
-
-                  text-center
-
-                  text-[16px]
-                  text-black
-
-                  hover:text-orange-400
-
-                  transition-all
-                ">
-
-                  Managed Services
-
-                </a>
-
-                <a href="#" className="
-                  block
-
-                  px-8
-                  py-3
-
-                  text-center
-
-                  text-[16px]
-                  text-black
-
-                  hover:text-orange-400
-
-                  transition-all
-                ">
-
-                  Shared Services
-
-                </a>
+              
 
               </div>
 
@@ -282,31 +249,35 @@ export default function Navbar() {
 
           </li>
 
-          <li className="
-            hover:text-orange-400
+         <Link href="/carrer">
+  <li
+    className={`
+      cursor-pointer
+      transition
+      duration-300
+      ${pathname === "/carrer" ? "text-orange-400" : "text-black hover:text-orange-400"}
+    `}
+  >
+    Career
+  </li>
+</Link>
 
-            transition
-            duration-300
-
-            cursor-pointer
-          ">
-
-            Career
-
-          </li>
-
-          <li className="
-            hover:text-orange-400
-
-            transition
-            duration-300
-
-            cursor-pointer
-          ">
-
-            Contact
-
-          </li>
+        <Link href="/contact">
+  <li
+    className={`
+      cursor-pointer
+      transition
+      duration-300
+      ${
+        pathname === "/contact"
+          ? "text-orange-400"
+          : "text-black hover:text-orange-400"
+      }
+    `}
+  >
+    Contact
+  </li>
+</Link>
 
         </ul>
 
@@ -422,18 +393,18 @@ export default function Navbar() {
 
               </li>
 
-              <li className="
-                cursor-pointer
-
-                hover:text-orange-400
-
-                transition
-                duration-300
-              ">
-
-                About us
-
-              </li>
+             <Link href="/about">
+  <li
+    className={`
+      cursor-pointer
+      transition
+      duration-300
+      ${pathname === "/About" ? "text-orange-400" : "text-black hover:text-orange-400"}
+    `}
+  >
+    About Us
+  </li>
+</Link>
 
               <li className="
                 cursor-pointer

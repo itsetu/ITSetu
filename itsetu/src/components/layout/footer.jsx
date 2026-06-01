@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
@@ -59,10 +61,30 @@ and future-ready digital solutions.
                 Quick Links
               </h3>
               <div className="flex flex-col gap-5 text-[15px] text-gray-600 items-center">
-                <a href="#" className="hover:text-[#162b80] transition-colors">Home</a>
-                <a href="#" className="hover:text-[#162b80] transition-colors">About us</a>
-                <a href="#" className="hover:text-[#162b80] transition-colors">Career</a>
-                <a href="#" className="hover:text-[#162b80] transition-colors">Contact us</a>
+                <Link
+  href="/"
+  className="hover:text-[#162b80] transition-colors"
+>
+  Home
+</Link>
+                <Link
+  href="/about"
+  className="hover:text-[#162b80] transition-colors"
+>
+  About Us
+</Link>
+               <Link
+  href="/carrer"
+  className="hover:text-[#162b80] transition-colors"
+>
+  Career
+</Link>
+               <Link
+  href="/contact"
+  className="hover:text-[#162b80] transition-colors"
+>
+  Contact Us
+</Link>
               </div>
             </div>
 
@@ -181,3 +203,13 @@ and future-ready digital solutions.
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
