@@ -17,7 +17,7 @@ export default function Navbar() {
 
     <nav className="
       w-full
-      h-[50px]
+      h-[90px]
       md:h-[100px]
 
       bg-white
