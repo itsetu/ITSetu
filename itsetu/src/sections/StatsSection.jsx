@@ -22,7 +22,7 @@ export default function StatsSection() {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/StatsSection.avif')" }}
+        style={{ backgroundImage: "url('/NewBackground8.png')" }}
       />
 
       {/* Dark Overlay */}

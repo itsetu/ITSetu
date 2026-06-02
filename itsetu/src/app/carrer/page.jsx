@@ -65,7 +65,7 @@ export default function Career() {
   return (
     
     <main className="career-page">
-      <Navbar></Navbar>
+     
       {/* HERO */}
       <section className="career-hero">
         <div className="hero-grid-overlay" aria-hidden="true" />
@@ -125,15 +125,15 @@ export default function Career() {
       {/* PEOPLE STRENGTH */}
       <section className="section section-light">
         <div className="container split-section">
-          <div className="split-visual reveal">
-            <div className="split-frame">
-              <div className="split-frame-inner">
-                <div className="frame-shape frame-shape-1" />
-                <div className="frame-shape frame-shape-2" />
-                <div className="frame-shape frame-shape-3" />
-              </div>
-            </div>
-          </div>
+         <div className="split-visual reveal">
+  <div className="career-image-wrapper">
+    <img
+      src="/OurPeople.png"
+      alt="ITSetu Team"
+      className="career-image"
+    />
+  </div>
+</div>
           <div className="split-content reveal">
             <span className="eyebrow">Our People</span>
             <h2 className="section-title">Our People Are Our Strength</h2>
@@ -266,12 +266,13 @@ export default function Career() {
             </ul>
           </div>
           <div className="split-visual reveal">
-            <div className="balance-frame">
-              <div className="balance-circle balance-circle-1" />
-              <div className="balance-circle balance-circle-2" />
-              <div className="balance-circle balance-circle-3" />
-              <div className="balance-grid" />
-            </div>
+           <div className="career-image-wrapper">
+  <img
+    src="/WorkLife.png"
+    alt="Work Life Balance"
+    className="career-image"
+  />
+</div>
           </div>
         </div>
       </section>

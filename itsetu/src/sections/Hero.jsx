@@ -7,25 +7,25 @@ export default function Hero() {
   const slides = [
 
     {
-      image: "/p1.avif",
+      image: "/NewI2.png",
       subtitle: "IT Infrastructure Solutions",
       title: "Transforming Businesses Through Smart IT Infrastructure"
     },
 
     {
-      image: "/p2.avif",
+      image: "/New3.png",
       subtitle: "Cyber Security & Networking",
       title: "Secure, Scalable and Reliable Technology Solutions"
     },
 
     {
-      image: "/p3.avif",
+      image: "/New4.png",
       subtitle: "Cloud & Digital Transformation",
       title: "Accelerate Your Business Growth with Modern Cloud Solutions"
     },
 
     {
-      image: "/p5.avif",
+      image: "/New5.png",
       subtitle: "24×7 Managed IT Services",
       title: "Reliable Support for Your Critical Business Operations"
     }

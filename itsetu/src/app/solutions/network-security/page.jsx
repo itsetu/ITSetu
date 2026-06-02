@@ -100,7 +100,7 @@ export default function Page() {
 
   return (
     <main ref={rootRef} className={`nds-root ${loaded ? "nds-loaded" : ""}`}>
-      <Navbar></Navbar>
+      
       {/* HERO */}
       <section className="nds-hero">
         <div className="nds-grid-bg" aria-hidden="true" />

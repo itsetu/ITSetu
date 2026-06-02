@@ -492,3 +492,55 @@
   .ab-tl-row.right .ab-tl-card { grid-column: 1; text-align: left; }
   .ab-tl-node { left: 16px; transform: translateX(-50%); }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ab-image-wrapper {
+  width: 100%;
+  height: 500px;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: var(--ab-shadow);
+  position: relative;
+}
+
+.ab-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.ab-image-wrapper:hover .ab-image {
+  transform: scale(1.05);
+}
+
+@media (max-width: 720px) {
+  .ab-image-wrapper {
+    height: 320px;
+  }
+}
+
+.ab-image-wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: 550px;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: var(--ab-shadow);
+}

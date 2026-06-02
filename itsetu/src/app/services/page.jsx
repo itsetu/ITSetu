@@ -4,7 +4,7 @@ import Footer from "@/components/layout/Footer";
 export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
-      <Navbar />
+      
 
       <section className="max-w-[1400px] mx-auto px-4 md:px-8 lg:px-12 py-24">
         <div className="rounded-[40px] border border-slate-200 bg-white p-12 shadow-2xl">

@@ -68,7 +68,7 @@ export default function StorageBackupPage() {
 
   return (
     <main className="sb-page">
-      <Navbar></Navbar>
+      
       {/* HERO */}
       <section className="sb-hero">
         <div className="sb-hero-bg">

@@ -77,7 +77,7 @@ export default function Contact() {
 
   return (
     <main className="itsetu-contact" ref={pageRef}>
-      <Navbar></Navbar>
+      
       {/* SECTION 1 — HERO */}
       <section className="its-hero">
         <div className="its-hero-bg">

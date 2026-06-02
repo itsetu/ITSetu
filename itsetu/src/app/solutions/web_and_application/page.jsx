@@ -90,7 +90,7 @@ export default function WebAppDevelopmentPage() {
 
   return (
     <main className="wa-root">
-      <Navbar></Navbar>
+      
       {/* HERO */}
       <section className="wa-hero">
         <div className="wa-hero-bg">

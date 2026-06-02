@@ -68,7 +68,7 @@ export default function About() {
   ];
   return (
     <main className="about-page">
-      <Navbar></Navbar>
+      
       {/* HERO */}
       <section className="ab-hero">
         <div className="ab-grid-overlay" aria-hidden="true" />
@@ -119,13 +119,13 @@ export default function About() {
       <section className="ab-section ab-light">
         <div className="ab-container ab-split">
           <div className="ab-split-visual a-reveal">
-            <div className="ab-frame">
-              <div className="ab-frame-inner">
-                <div className="ab-fshape ab-fshape-1" />
-                <div className="ab-fshape ab-fshape-2" />
-                <div className="ab-fshape ab-fshape-3" />
-              </div>
-            </div>
+  <div className="ab-image-wrapper">
+  <img
+    src="/NewBackground8.png"
+    alt="ITSetu Team"
+    className="ab-image"
+  />
+</div>
           </div>
           <div className="ab-split-content a-reveal">
             <span className="ab-eyebrow dark">Who We Are</span>

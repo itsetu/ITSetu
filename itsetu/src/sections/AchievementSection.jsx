@@ -15,7 +15,7 @@ export default function AchievementSection() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/achievementBg.avif')"
+            backgroundImage: "url('/NewBackground7.png')"
           }}
         >
 

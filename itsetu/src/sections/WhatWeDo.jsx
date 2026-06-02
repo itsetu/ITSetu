@@ -8,7 +8,7 @@ export default function WhatWeDo() {
       <section className="w-full min-h-[160px] bg-[#ffffff] overflow-hidden py-10">
 
 
-        in 
+        
         <div className="
           translate-x-[20px]
           sm:translate-x-[60px]
@@ -148,7 +148,7 @@ ensuring performance, security and business continuity.
                 overflow-hidden
               "
               style={{
-                backgroundImage: "url('/Main.avif')",
+                backgroundImage: "url('/NewBackground6.png')",
                backgroundAttachment: "fixed"
               }}
             >
