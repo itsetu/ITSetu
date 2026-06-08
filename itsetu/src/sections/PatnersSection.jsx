@@ -2,12 +2,12 @@ export default function PartnersSection() {
 
   const partners = [
     "/Patner-4.png",
-    "/patner13.png",
-    "/patner14.png",
-    "/patner20.png",
-    "/patner26.png",
-    "/patner32.png",
-    "/patner16.png",
+    "/Patner13.png",
+    "/Patner14.png",
+    "/Patner20.png",
+    "/Patner26.png",
+    "/Patner32.png",
+    "/Patner16.png",
     "DLinkPatner.png"
   ];
 

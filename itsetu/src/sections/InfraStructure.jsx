@@ -122,11 +122,7 @@ export default function InfrastructureSection() {
           mb-10
         ">
 
-          GTS is a new age IT Infrastructure management services company
-          delivering timely solutions enhancing operational excellence of
-          our Customer’s businesses. We have put in undeterred hard work
-          and our clientele is the proof to our professionalism.
-
+          IT Setu provides modern IT solutions designed to help organizations embrace digital transformation with confidence. Through our expertise in software development, cloud technologies, and IT services, we empower businesses to overcome challenges and achieve their goals efficiently.
         </p>
 
         {/* Button */}

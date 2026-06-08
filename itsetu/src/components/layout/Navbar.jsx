@@ -38,7 +38,7 @@ export default function Navbar() {
 {/* Left Logo */}
 <div className="flex items-center pl-2 md:pl-6">
   <Link href="/" onClick={closeMobile}>
-    <img className="w-[140px] h-auto cursor-pointer" src="/FLogo.png" alt="ITSetu Logo" />
+    <img className="w-[140px] h-auto cursor-pointer" src="/MainLogo.png" alt="ITSetu Logo" />
   </Link>
 </div>
 

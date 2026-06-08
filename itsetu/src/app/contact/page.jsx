@@ -6,9 +6,9 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 const contactCards = [
-  { icon: "📍", title: "Office Address", lines: ["Address: Office No. 236, 2nd Floor, Vision 9, Kunal Icon Road, Pimple Saudagar, Pune -411027."] },
+  // { icon: "📍", title: "Office Address", lines: ["Address: Office No. 236, 2nd Floor, Vision 9, Kunal Icon Road, Pimple Saudagar, Pune -411027."] },
   { icon: "📞", title: "Phone Support", lines: ["+91 8237165766"] },
-  { icon: "✉️", title: "Email Address", lines: ["info@itsetu.com"] },
+  { icon: "✉️", title: "Email Address", lines: ["sales@itsetu.com "] },
   { icon: "🕒", title: "Business Hours", lines: ["Monday – Saturday", "9:00 AM – 7:00 PM"] },
 ];
 
@@ -129,7 +129,7 @@ export default function Contact() {
             <p>Reach out to our team for ERP software, cloud services, networking solutions, IT infrastructure projects and enterprise technology support.</p>
           </header>
 
-          <div className="its-contact-grid">
+          <div className='its-contact-grid '>
             {contactCards.map((c, i) => (
               <div className="its-contact-card reveal" style={{ "--d": `${i * 80}ms` }} key={c.title}>
                 <div className="its-card-icon">{c.icon}</div>

@@ -26,7 +26,7 @@ export default function Footer() {
             {/* COLUMN 1 - Logo + Description */}
             <div className="flex flex-col items-center justify-center">
               <img
-                src="/FLogo.png"
+                src="/MainLogo.png"
                 alt="logo"
                 className="w-[180px] mb-8"
               />
@@ -110,7 +110,7 @@ and future-ready digital solutions.
               <div className="flex flex-col items-center gap-5">
                 <img src="/Facebook.avif" alt="Facebook" className="w-[36px] hover:opacity-80 cursor-pointer" />
                 <img src="/LinkDin.avif" alt="LinkedIn" className="w-[36px] hover:opacity-80 cursor-pointer" />
-                <img src="/whatAPP.avif" alt="WhatsApp" className="w-[36px] hover:opacity-80 cursor-pointer" />
+                <img src="/WhatAPP.avif" alt="WhatsApp" className="w-[36px] hover:opacity-80 cursor-pointer" />
               </div>
             </div>
           </div>
@@ -130,8 +130,8 @@ and future-ready digital solutions.
           ">
             {/* Left - Contact */}
             <div className="flex flex-col gap-2 text-gray-600 text-[15px] text-center lg:text-left">
-              <p>Tel. +91 9876543210</p>
-              <p>Email. info@itsetu.com</p>
+              <p>Tel. +91 8237165766</p>
+              <p>Email. sales@itsetu.com </p>
             </div>
 
             {/* Center - Terms */}
@@ -196,7 +196,7 @@ and future-ready digital solutions.
         {/* COPYRIGHT */}
         <div className="bg-[#162b80] py-5 mt-0 -mx-8 md:-mx-20 lg:-mx-32 xl:-mx-44">
           <p className="text-center text-white text-[14px] sm:text-[16px] tracking-[2px] px-4">
-           © 2026 ITSetu Technologies. All Rights Reserved.
+          © 2026 ITSetu Technosoft Pvt. Ltd. All Rights Reserved.
           </p>
         </div>
       </footer>

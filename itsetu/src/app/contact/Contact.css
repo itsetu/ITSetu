@@ -287,8 +287,10 @@
 
 /* CONTACT CARDS */
 .its-contact-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* grid-template-columns: repeat(4, 1fr); */
   gap: 24px;
 }
 .its-contact-card {
@@ -696,4 +698,51 @@
   .its-step-card { min-width: auto; width: 100%; }
   .its-step-dot { left: 10px !important; right: auto !important; }
   .its-pin-label { font-size: 10px; }
+}
+
+.its-contact-card {
+  flex: 0 1 300px;   /* won't grow beyond 300px, but can shrink */
+}
+
+
+
+@media (max-width: 768px) {
+  .its-hero-grid {
+    text-align: center;
+  }
+
+  /* Show it but make it smaller */
+  .its-hero-visual {
+    display: flex;       /* remove the display:none */
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .its-orbit {
+    width: 240px;
+    height: 240px;
+  }
+
+  .its-orbit-core {
+    font-size: 13px;
+  }
+
+  .its-orbit-dot {
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+    top: -14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .its-hero-visual {
+    height: 220px;
+  }
+
+  .its-orbit {
+    width: 200px;
+    height: 200px;
+  }
 }
