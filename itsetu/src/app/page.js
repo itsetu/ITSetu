@@ -10,9 +10,17 @@ import PartnersSection from "@/sections/PatnersSection";
 import Footer from "@/components/layout/Footer";
 
 
+export const metadata = {
+  title: "ITSetu",
+  description: "ITSetu Website",
+};
+
+
 export default function Home() {
   return (
    <main className="min-h-screen bg-white">
+
+
 
     
     <Hero></Hero>
@@ -25,5 +33,7 @@ export default function Home() {
     <Footer></Footer>
 
    </main>
+
+
   );
 }
