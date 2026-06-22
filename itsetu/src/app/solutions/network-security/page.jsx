@@ -122,7 +122,7 @@ export default function Page() {
               <span className="nds-gradient-text">Advanced Security Solutions</span>
             </h1>
             <p className="nds-lead" data-reveal>
-              ITSetu provides enterprise-grade network and data security solutions designed to
+              iTSetu provides enterprise-grade network and data security solutions designed to
               prevent unauthorized access, secure digital assets and protect critical business
               infrastructure from modern cyber threats.
             </p>
@@ -288,8 +288,8 @@ export default function Page() {
       <section className="nds-section nds-section-alt">
         <div className="nds-container">
           <div className="nds-section-head" data-reveal>
-            <span className="nds-tag">WHY ITSETU</span>
-            <h2 className="nds-h2">Why Businesses Trust ITSetu For Security</h2>
+            <span className="nds-tag">WHY iTSETU</span>
+            <h2 className="nds-h2">Why Businesses Trust iTSetu For Security</h2>
           </div>
           <div className="nds-why-grid">
             {whyChoose.map((w, i) => (

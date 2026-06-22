@@ -112,7 +112,7 @@ export default function WebAppDevelopmentPage() {
               Building <span className="wa-grad-text">Intelligent Digital Experiences</span> For Modern Businesses
             </h1>
             <p className="wa-hero-desc wa-reveal" ref={addToRefs}>
-              ITSetu develops modern web applications, mobile applications and enterprise software solutions
+              iTSetu develops modern web applications, mobile applications and enterprise software solutions
               designed to improve productivity, customer engagement and business growth.
             </p>
             <div className="wa-hero-cta wa-reveal" ref={addToRefs}>
@@ -176,7 +176,7 @@ export default function WebAppDevelopmentPage() {
             <span className="wa-tag">SERVICE OVERVIEW</span>
             <h2 className="wa-h2">What Kind Of Services We Provide</h2>
             <p className="wa-p">
-              ITSetu helps businesses build scalable web applications, enterprise software and mobile solutions
+              iTSetu helps businesses build scalable web applications, enterprise software and mobile solutions
               that support digital transformation and operational excellence. As a trusted Software Development
               Company in Pune, we partner with organizations to engineer reliable, future-ready platforms.
             </p>
@@ -274,7 +274,7 @@ export default function WebAppDevelopmentPage() {
             <span className="wa-tag">SUPPORT & MAINTENANCE</span>
             <h2 className="wa-h2">Support & Maintenance</h2>
             <p className="wa-p wa-p-center">
-              ITSetu provides comprehensive support and maintenance services that keep applications updated,
+              iTSetu provides comprehensive support and maintenance services that keep applications updated,
               secure and optimized. The team continuously improves performance, resolves issues and ensures
               compatibility with evolving operating systems and technologies.
             </p>
@@ -303,8 +303,8 @@ export default function WebAppDevelopmentPage() {
       <section className="wa-section wa-section-alt">
         <div className="wa-container">
           <div className="wa-section-head wa-reveal" ref={addToRefs}>
-            <span className="wa-tag">WHY ITSETU</span>
-            <h2 className="wa-h2">Why Businesses Choose ITSetu</h2>
+            <span className="wa-tag">WHY iTSETU</span>
+            <h2 className="wa-h2">Why Businesses Choose iTSetu</h2>
           </div>
 
           <div className="wa-grid wa-grid-4">
@@ -351,7 +351,7 @@ export default function WebAppDevelopmentPage() {
         <div className="wa-container wa-cta-inner wa-reveal" ref={addToRefs}>
           <h2 className="wa-cta-h">Ready To Build Your Next Digital Solution?</h2>
           <p className="wa-cta-p">
-            Partner with ITSetu for enterprise applications, mobile apps, UI/UX design and modern web development
+            Partner with iTSetu for enterprise applications, mobile apps, UI/UX design and modern web development
             solutions — delivered by a trusted Web Development Company in Pune.
           </p>
           <div className="wa-cta-buttons">

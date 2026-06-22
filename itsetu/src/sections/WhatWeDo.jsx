@@ -73,7 +73,7 @@ export default function WhatWeDo() {
               lg:-translate-y-[50px]
             ">
               Our mission is to simplify the transition of businesses
-              into the digital era. ITSetu offers end-to-end solutions
+              into the digital era. iTSetu offers end-to-end solutions
               including Networking, Cyber Security, Data Center
               Infrastructure, Cloud Management, Storage & Backup,
               Virtualization and IT Facility Management services

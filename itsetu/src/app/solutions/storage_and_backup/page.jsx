@@ -93,7 +93,7 @@ export default function StorageBackupPage() {
               <span className="sb-gradient-text">Data Protection Solutions</span>
             </h1>
             <p className="sb-hero-desc sb-reveal" ref={addToRefs}>
-              ITSetu delivers enterprise storage and backup solutions designed to simplify data
+              iTSetu delivers enterprise storage and backup solutions designed to simplify data
               management, improve flexibility and ensure reliable business continuity through
               modern storage technologies and advanced recovery capabilities.
             </p>
@@ -150,7 +150,7 @@ export default function StorageBackupPage() {
               secure storage, efficient management and reliable protection.
             </p>
             <p>
-              ITSetu provides storage and backup solutions designed to help businesses manage data
+              iTSetu provides storage and backup solutions designed to help businesses manage data
               efficiently while ensuring business continuity and operational resilience as a
               trusted IT infrastructure company in Pune.
             </p>
@@ -306,8 +306,8 @@ export default function StorageBackupPage() {
       <section className="sb-section sb-why">
         <div className="sb-container">
           <div className="sb-section-head sb-reveal" ref={addToRefs}>
-            <span className="sb-eyebrow">WHY CHOOSE ITSETU</span>
-            <h2 className="sb-h2">Why Businesses Choose ITSetu</h2>
+            <span className="sb-eyebrow">WHY CHOOSE iTSETU</span>
+            <h2 className="sb-h2">Why Businesses Choose iTSetu</h2>
           </div>
           <div className="sb-grid sb-grid-4">
             {whyChoose.map((w, i) => (

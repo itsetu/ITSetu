@@ -94,7 +94,7 @@ export default function Contact() {
 
         <div className="its-container its-hero-grid">
           <div className="its-hero-copy">
-            <span className="its-eyebrow reveal">CONTACT ITSETU</span>
+            <span className="its-eyebrow reveal">CONTACT iTSETU</span>
             <h1 className="its-hero-title reveal">
               Let's Build Something <span className="its-gradient-text">Great Together</span>
             </h1>
@@ -111,7 +111,7 @@ export default function Contact() {
 
           <div className="its-hero-visual reveal">
             <div className="its-orbit">
-              <div className="its-orbit-core"><span>ITSetu</span></div>
+              <div className="its-orbit-core"><span>iTSetu</span></div>
               <div className="its-orbit-ring its-ring-1"><span className="its-orbit-dot">☁️</span></div>
               <div className="its-orbit-ring its-ring-2"><span className="its-orbit-dot">🛡️</span></div>
               <div className="its-orbit-ring its-ring-3"><span className="its-orbit-dot">🧩</span></div>
@@ -219,7 +219,7 @@ export default function Contact() {
       <section className="its-section its-tinted">
         <div className="its-container">
           <header className="its-section-head reveal">
-            <h2>Why Businesses Choose ITSetu</h2>
+            <h2>Why Businesses Choose iTSetu</h2>
             <p>A trusted IT Solutions Company in Pune delivering measurable outcomes.</p>
           </header>
           <div className="its-why-grid">
@@ -285,7 +285,7 @@ export default function Contact() {
         </div>
         <div className="its-container its-cta-inner reveal">
           <h2>Ready To Transform Your Business?</h2>
-          <p>Partner with ITSetu for ERP software, SaaS solutions, networking, cloud services and enterprise IT infrastructure support.</p>
+          <p>Partner with iTSetu for ERP software, SaaS solutions, networking, cloud services and enterprise IT infrastructure support.</p>
           <div className="its-hero-cta">
             <a href="#contact-form" className="its-btn its-btn-primary"><span>Contact Our Experts</span></a>
             <a href="#contact-form" className="its-btn its-btn-ghost"><span>Request Consultation</span></a>

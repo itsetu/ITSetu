@@ -44,7 +44,7 @@ export default function Career() {
   ];
 
   const induction = [
-    { step: "01", title: "Welcome Onboarding", desc: "Introduction to ITSetu's vision, mission and values." },
+    { step: "01", title: "Welcome Onboarding", desc: "Introduction to iTSetu's vision, mission and values." },
     { step: "02", title: "Culture Immersion", desc: "Deep-dive into our collaborative, customer-first culture." },
     { step: "03", title: "Technology Orientation", desc: "Hands-on training across our enterprise platforms." },
     { step: "04", title: "Workflow Training", desc: "Learn our delivery, quality and engineering processes." },
@@ -80,12 +80,12 @@ export default function Career() {
 
         <div className="hero-inner">
           <div className="hero-copy">
-            <span className="hero-eyebrow reveal">CAREERS AT ITSETU</span>
+            <span className="hero-eyebrow reveal">CAREERS AT iTSETU</span>
             <h1 className="hero-title reveal">
               People <span className="hero-gradient-text">Power</span> Innovation
             </h1>
             <p className="hero-desc reveal">
-              At ITSetu, our people are our greatest strength. We believe in building careers
+              At iTSetu, our people are our greatest strength. We believe in building careers
               that are multifaceted, future-ready and focused on continuous growth. We create
               opportunities for passionate individuals to innovate, learn and make meaningful
               impact through technology.
@@ -138,7 +138,7 @@ export default function Career() {
             <span className="eyebrow">Our People</span>
             <h2 className="section-title">Our People Are Our Strength</h2>
             <p className="section-text">
-              At ITSetu, we invest in ensuring career paths are holistic, rewarding and
+              At iTSetu, we invest in ensuring career paths are holistic, rewarding and
               growth-oriented.
             </p>
             <p className="section-text">
@@ -178,8 +178,8 @@ export default function Career() {
       <section className="section section-light">
         <div className="container">
           <div className="section-head reveal">
-            <span className="eyebrow">Why ITSetu</span>
-            <h2 className="section-title">Why Work With ITSetu</h2>
+            <span className="eyebrow">Why iTSetu</span>
+            <h2 className="section-title">Why Work With iTSetu</h2>
           </div>
           <div className="grid-4">
             {whyCards.map((c, i) => (
@@ -203,9 +203,9 @@ export default function Career() {
         <div className="container">
           <div className="section-head reveal">
             <span className="eyebrow eyebrow-light">Employee Value Proposition</span>
-            <h2 className="section-title light">What Makes ITSetu Different</h2>
+            <h2 className="section-title light">What Makes iTSetu Different</h2>
             <p className="section-sub light">
-              At ITSetu, employees gain exposure to real-world enterprise projects involving
+              At iTSetu, employees gain exposure to real-world enterprise projects involving
               ERP platforms, SaaS products, cloud infrastructure, networking and system integration.
             </p>
           </div>

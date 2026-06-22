@@ -36,7 +36,7 @@ export default function Footer() {
                 leading-[1.8]
                 max-w-[280px]
               ">
-                ITSetu is a trusted IT Infrastructure and
+                iTSetu is a trusted IT Infrastructure and
 Technology Solutions company helping businesses
 transform operations through secure, scalable
 and future-ready digital solutions.
@@ -196,7 +196,7 @@ and future-ready digital solutions.
         {/* COPYRIGHT */}
         <div className="bg-[#162b80] py-5 mt-0 -mx-8 md:-mx-20 lg:-mx-32 xl:-mx-44">
           <p className="text-center text-white text-[14px] sm:text-[16px] tracking-[2px] px-4">
-          © 2026 ITSetu Technosoft Pvt. Ltd. All Rights Reserved.
+          © 2026 iTSetu Technosoft Pvt. Ltd. All Rights Reserved.
           </p>
         </div>
       </footer>

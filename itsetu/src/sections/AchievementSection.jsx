@@ -32,7 +32,7 @@ export default function AchievementSection() {
             viewport={{ once: true }}
             className="text-white text-[22px] md:text-[38px] font-semibold"
           >
-            Why ITSetu
+            Why iTSetu
           </motion.h2>
         </div>
 

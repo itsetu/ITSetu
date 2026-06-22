@@ -82,12 +82,12 @@ export default function About() {
         </div>
         <div className="ab-hero-inner">
           <div className="ab-hero-copy">
-            <span className="ab-eyebrow a-reveal">ABOUT ITSETU</span>
+            <span className="ab-eyebrow a-reveal">ABOUT iTSETU</span>
             <h1 className="ab-hero-title a-reveal">
               Driving Digital <span className="ab-gradient-text">Transformation</span> Through Innovation
             </h1>
             <p className="ab-hero-desc a-reveal">
-              ITSetu Technosoft Pvt Ltd empowers businesses with ERP software, SaaS solutions,
+              iTSetu Technosoft Pvt Ltd empowers businesses with ERP software, SaaS solutions,
               IT infrastructure, networking, cloud technologies and enterprise support services
               designed for long-term growth and operational excellence.
             </p>
@@ -131,7 +131,7 @@ export default function About() {
             <span className="ab-eyebrow dark">Who We Are</span>
             <h2 className="ab-section-title">A Trusted IT Solutions Company in Pune</h2>
             <p className="ab-text">
-              ITSetu Technosoft Pvt Ltd is a Pune-based technology company focused on delivering
+              iTSetu Technosoft Pvt Ltd is a Pune-based technology company focused on delivering
               enterprise-grade digital solutions that help organizations modernize operations,
               improve efficiency and accelerate growth.
             </p>
@@ -178,7 +178,7 @@ export default function About() {
         <div className="ab-container">
           <div className="ab-head a-reveal">
             <span className="ab-eyebrow dark">What Makes Us Different</span>
-            <h2 className="ab-section-title">Why Businesses Choose ITSetu</h2>
+            <h2 className="ab-section-title">Why Businesses Choose iTSetu</h2>
           </div>
           <div className="ab-grid-4">
             {whyCards.map((c, i) => (
@@ -282,10 +282,10 @@ export default function About() {
       <section className="ab-section ab-light">
         <div className="ab-container ab-split ab-split-reverse">
           <div className="ab-split-content a-reveal">
-            <span className="ab-eyebrow dark">Why ITSetu</span>
+            <span className="ab-eyebrow dark">Why iTSetu</span>
             <h2 className="ab-section-title">Building Technology That Powers Business Growth</h2>
             <p className="ab-text">
-              At ITSetu, we believe technology should simplify operations, strengthen customer
+              At iTSetu, we believe technology should simplify operations, strengthen customer
               relationships and unlock new opportunities for growth.
             </p>
             <p className="ab-text">
@@ -316,7 +316,7 @@ export default function About() {
         <div className="ab-container ab-cta-inner a-reveal">
           <h2>Ready To Transform Your Business?</h2>
           <p>
-            Partner with ITSetu to accelerate digital transformation through ERP software,
+            Partner with iTSetu to accelerate digital transformation through ERP software,
             cloud services, networking solutions and enterprise technology support.
           </p>
           <div className="ab-cta-actions">
