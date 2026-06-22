@@ -19,8 +19,8 @@ const spinnaker = Spinnaker({
 });
 
 export const metadata = {
-  title: "ItSetu",
-  description: "ItSetu",
+  title: "itSetu",
+  description: "itSetu",
 };
 
 export default function RootLayout({ children }) {
