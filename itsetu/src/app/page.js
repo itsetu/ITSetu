@@ -11,8 +11,8 @@ import Footer from "@/components/layout/Footer";
 
 
 export const metadata = {
-  title: "ITSetu Technosoft",
-  description: "ITSetu Website",
+  title: "iTSetu Technosoft",
+  description: "iTSetu Website",
 };
 
 
