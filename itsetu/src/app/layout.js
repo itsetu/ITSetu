@@ -19,8 +19,44 @@ const spinnaker = Spinnaker({
 });
 
 export const metadata = {
-  title: "itSetu",
-  description: "itSetu",
+  metadataBase: new URL("https://yourdomain.com"), // Replace with your website URL
+
+  title: {
+    default: "iTSetu Technosoft Pvt. Ltd.",
+    template: "%s | iTSetu Technosoft Pvt. Ltd.",
+  },
+
+  description:
+    "iTSetu Technosoft Pvt. Ltd. specializes in IT Infrastructure, Networking, Cloud Solutions, System Integration, Software Development, ERP, Business Automation, and Managed IT Services.",
+
+  keywords: [
+    "iTSetu",
+    "iTSetu Technosoft",
+    "IT Infrastructure",
+    "Networking",
+    "Cloud Solutions",
+    "Software Development",
+    "ERP",
+    "Business Automation",
+    "Advitwala",
+    "SaaS Platform",
+    "Technology Consulting",
+    "Network Security",
+    "IT Infrastructure Company Pune"
+  ],
+
+  authors: [{ name: "iTSetu Technosoft Pvt. Ltd." }],
+
+  creator: "iTSetu Technosoft Pvt. Ltd.",
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
