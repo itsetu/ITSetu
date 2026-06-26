@@ -27,14 +27,16 @@ export const metadata = {
   },
 
   description:
-    "iTSetu Technosoft Pvt. Ltd. specializes in IT Infrastructure, Networking, Cloud Solutions, System Integration, Software Development, ERP, Business Automation, and Managed IT Services.",
+    "iTSetu Technosoft Pvt. Ltd. is a technology-driven company specializing in IT Infrastructure, Networking, System Integration, Cloud Solutions, Software Development, ERP, Business Automation, and Managed IT Services. We are also the creators of Advitwala, a powerful SaaS platform for system integrators and technology partners.",
 
   keywords: [
     "iTSetu",
     "iTSetu Technosoft",
     "IT Infrastructure",
     "Networking",
+    "System Integration",
     "Cloud Solutions",
+    "Managed Services",
     "Software Development",
     "ERP",
     "Business Automation",
@@ -49,14 +51,28 @@ export const metadata = {
     google: "eFtuAaoz8mkNag9m3DiWWtuzF0z6jnn7ve6r-YwG0UY",
   },
 
-  authors: [{ name: "iTSetu Technosoft Pvt. Ltd." }],
-
-  creator: "iTSetu Technosoft Pvt. Ltd.",
+  openGraph: {
+    title: "iTSetu Technosoft Pvt. Ltd.",
+    description:
+      "IT Infrastructure, Networking, Cloud Solutions, Software Development, ERP & Business Automation.",
+    url: "https://www.itsetu.com",
+    siteName: "iTSetu Technosoft",
+    locale: "en_US",
+    type: "website",
+  },
 
   robots: {
     index: true,
     follow: true,
   },
+
+  authors: [
+    {
+      name: "iTSetu Technosoft Pvt. Ltd.",
+    },
+  ],
+
+  creator: "iTSetu Technosoft Pvt. Ltd.",
 
   icons: {
     icon: "/favicon.ico",

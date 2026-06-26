@@ -11,43 +11,17 @@ import Footer from "@/components/layout/Footer";
 
 
 export const metadata = {
-  metadataBase: new URL("https://yourdomain.com"), // Replace with your website URL
-
-  title: {
-    default: "iTSetu Technosoft Pvt. Ltd.",
-    template: "%s | iTSetu Technosoft Pvt. Ltd.",
-  },
-
+  title: "IT Infrastructure, Cloud Solutions & Business Automation",
   description:
-    "iTSetu Technosoft Pvt. Ltd. specializes in IT Infrastructure, Networking, Cloud Solutions, System Integration, Software Development, ERP, Business Automation, and Managed IT Services.",
+    "iTSetu Technosoft Pvt. Ltd. provides IT Infrastructure, Networking, System Integration, Cloud Solutions, ERP, Software Development, Business Automation, and Managed IT Services for modern businesses.",
 
-  keywords: [
-    "iTSetu",
-    "iTSetu Technosoft",
-    "IT Infrastructure",
-    "Networking",
-    "Cloud Solutions",
-    "Software Development",
-    "ERP",
-    "Business Automation",
-    "Advitwala",
-    "SaaS Platform",
-    "Technology Consulting",
-    "Network Security",
-    "IT Infrastructure Company Pune"
-  ],
-
-  authors: [{ name: "iTSetu Technosoft Pvt. Ltd." }],
-
-  creator: "iTSetu Technosoft Pvt. Ltd.",
-
-  robots: {
-    index: true,
-    follow: true,
-  },
-
-  icons: {
-    icon: "/favicon.ico",
+  openGraph: {
+    title: "iTSetu Technosoft Pvt. Ltd.",
+    description:
+      "Technology-driven company specializing in IT Infrastructure, Networking, Cloud Solutions, ERP, Business Automation, and Software Development.",
+    url: "https://www.itsetu.com",
+    siteName: "iTSetu Technosoft",
+    type: "website",
   },
 };
 
