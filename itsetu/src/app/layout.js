@@ -19,7 +19,7 @@ const spinnaker = Spinnaker({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://yourdomain.com"), // Replace with your website URL
+  metadataBase: new URL("https://www.itsetu.com"),
 
   title: {
     default: "iTSetu Technosoft Pvt. Ltd.",
@@ -42,8 +42,12 @@ export const metadata = {
     "SaaS Platform",
     "Technology Consulting",
     "Network Security",
-    "IT Infrastructure Company Pune"
+    "IT Infrastructure Company Pune",
   ],
+
+  verification: {
+    google: "eFtuAaoz8mkNag9m3DiWWtuzF0z6jnn7ve6r-YwG0UY",
+  },
 
   authors: [{ name: "iTSetu Technosoft Pvt. Ltd." }],
 
