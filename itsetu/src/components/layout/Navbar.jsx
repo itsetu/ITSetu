@@ -101,10 +101,10 @@ export default function Navbar() {
         </ul>
 
         {/* Right Logos - Desktop */}
-        <div className="hidden lg:flex items-center gap-2 lg:gap-4">
+        <div className="hidden lg:flex items-center gap-2 lg:gap-12">
           <Image src="/iso.png" alt="Logo 1" width={65} height={65} className="object-contain" />
           <Image src="/iso.png" alt="Logo 2" width={65} height={65} className="object-contain" />
-          <Image src="/Level3.png" alt="Logo 3" width={65} height={65} className="object-contain" />
+          {/* <Image src="/Level3.png" alt="Logo 3" width={65} height={65} className="object-contain" /> */}
         </div>
 
         {/* Mobile Menu Icon */}
